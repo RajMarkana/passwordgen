@@ -9,7 +9,7 @@ const clipBoardButton = document.getElementById('clipboard');
 const clipboardAlert = document.getElementById('alert');
 
 const footerElement = document.querySelector('footer');
-footerElement.innerHTML = `<p>Copyright &copy; ${new Date().getFullYear()}</p>`;
+footerElement.innerHTML = `<p>Raj Markana | Copyright &copy; ${new Date().getFullYear()}</p>`;
 
 let state = {
   numbers: true,
